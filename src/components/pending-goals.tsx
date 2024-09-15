@@ -22,7 +22,6 @@ export function PendingGoals() {
 
     queryClient.invalidateQueries({ queryKey: ['summary'] })
     queryClient.invalidateQueries({ queryKey: ['pending-goals'] })
-    console.log('Teste')
   }
 
   return (
